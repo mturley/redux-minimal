@@ -1,6 +1,6 @@
-import React from "react";
-import { Nav, NavItem, Glyphicon } from "react-bootstrap";
-import { IndexLinkContainer, LinkContainer } from "react-router-bootstrap";
+import React from 'react';
+import { Nav, NavItem, Glyphicon } from 'react-bootstrap';
+import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
 // Menu component
 export default class Menu extends React.Component {
@@ -15,7 +15,7 @@ export default class Menu extends React.Component {
         </IndexLinkContainer>
         <LinkContainer to="/user-edit">
           <NavItem>
-            Add User <Glyphicon glyph="plus-sign"/>
+            Add User <Glyphicon glyph="plus-sign" />
           </NavItem>
         </LinkContainer>
         <NavItem href="http://redux-minimal.js.org/" target="_blank">

@@ -1,11 +1,11 @@
-import React, { PropTypes } from "react";
-import { FormGroup, HelpBlock, Button } from "react-bootstrap";
+import React, { PropTypes } from 'react';
+import { FormGroup, HelpBlock, Button } from 'react-bootstrap';
 
 // Form submit component
 export default class FormSubmit extends React.Component {
   // render
   render() {
-    const {error, invalid, submitting, buttonSaveLoading, buttonSave} = this.props;
+    const { error, invalid, submitting, buttonSaveLoading, buttonSave } = this.props;
     return (
       <div>
         {error &&
@@ -16,8 +16,8 @@ export default class FormSubmit extends React.Component {
         <FormGroup className="submit">
           <Button type="submit" bsStyle="primary" disabled={invalid || submitting}>
             {submitting ?
-              (buttonSaveLoading ? buttonSaveLoading : 'Saving...') :
-              (buttonSave ? buttonSave : 'Save')}
+              (buttonSaveLoading || 'Saving...') :
+              (buttonSave || 'Save')}
           </Button>
         </FormGroup>
       </div>
@@ -27,9 +27,9 @@ export default class FormSubmit extends React.Component {
 
 // prop checks
 FormSubmit.propTypes = {
-  error: PropTypes.string,  // redux-form general `_error` message
-  invalid: PropTypes.bool,  // redux-form invalid prop
-  submitting: PropTypes.bool,   // redux-form invalid submitting
+  error: PropTypes.string, // redux-form general `_error` message
+  invalid: PropTypes.bool, // redux-form invalid prop
+  submitting: PropTypes.bool, // redux-form invalid submitting
   buttonSaveLoading: PropTypes.string, // save button loading text, default is "Saving..."
-  buttonSave: PropTypes.string,    // save button text, default is "Save"
+  buttonSave: PropTypes.string, // save button text, default is "Save"
 };

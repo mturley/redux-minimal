@@ -1,5 +1,5 @@
-import assert from "assert";
-import users from "../../src_users/reducers/users";
+import assert from 'assert';
+import users from '../../src_users/reducers/users';
 
 // unit tests for the users reducers
 // mocha - http://mochajs.org/#getting-started
@@ -19,7 +19,7 @@ describe('Users reducer', () => {
           id: 1,
           username: 'Some name',
           job: 'Some job',
-        }]
+        }],
       );
     });
   });
@@ -46,7 +46,7 @@ describe('Users reducer', () => {
           id: 2,
           username: 'Other name',
           job: 'Other job',
-        }]
+        }],
       );
     });
   });
@@ -77,7 +77,7 @@ describe('Users reducer', () => {
           id: 2,
           username: 'Changed name',
           job: 'Changed job',
-        }]
+        }],
       );
     });
   });
@@ -100,7 +100,7 @@ describe('Users reducer', () => {
           id: 1,
           username: 'Some name',
           job: 'Some job',
-        }]
+        }],
       );
     });
   });

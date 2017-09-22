@@ -1,11 +1,11 @@
-import React, { PropTypes } from "react";
-import { Modal, Button } from "react-bootstrap";
+import React, { PropTypes } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 
 // User delete component
 export default class UserDeletePrompt extends React.Component {
   // render
   render() {
-    const {show, user, hideDelete, userDelete} = this.props;
+    const { show, user, hideDelete, userDelete } = this.props;
     return (
       <Modal show={show}>
         <Modal.Header>
@@ -28,4 +28,4 @@ UserDeletePrompt.propTypes = {
   user: PropTypes.object.isRequired,
   hideDelete: PropTypes.func.isRequired,
   userDelete: PropTypes.func.isRequired,
-}
+};

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 // Home page component
 export default class Home extends React.Component {
