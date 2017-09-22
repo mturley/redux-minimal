@@ -1,4 +1,4 @@
 // main saga generators
-export function* sagas() {
+export default function* sagas() {
   // yield [];
 }

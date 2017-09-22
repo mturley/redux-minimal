@@ -9,8 +9,8 @@
 [![dependencies](https://david-dm.org/catalin-luntraru/redux-minimal.svg)](https://david-dm.org/catalin-luntraru/redux-minimal)
 [![devDependency Status](https://david-dm.org/catalin-luntraru/redux-minimal/dev-status.svg)](https://david-dm.org/catalin-luntraru/redux-minimal?type=dev)
 
-Redux-Minimal is a minimalist react-redux starter kit (boilerplate) which let's you build rich real world apps. 
-It's not as light as some starter kits which only let you write a simple hello world app and then you have to struggle with installing all the other stuff yourself. 
+Redux-Minimal is a minimalist react-redux starter kit (boilerplate) which let's you build rich real world apps.
+It's not as light as some starter kits which only let you write a simple hello world app and then you have to struggle with installing all the other stuff yourself.
 And it's also not as packed as other starter kits which confuse you massively with its folder/file structure and arcane scripts.
 
 Redux-Minimal contains the bare minimum to develop a real world complex app and it also comes with a small users app that will show you how to code certain features.
@@ -34,7 +34,7 @@ A demo of the app can be seen here: [http://redux-minimal-app.catalin-luntraru.c
     npm start
     ```
 
-3. Then open your [http://localhost:8080/](http://localhost:8080/) to see the included small users app. 
+3. Then open your [http://localhost:8080/](http://localhost:8080/) to see the included small users app.
 Congratulations! You can now write react redux code.
 
 4. For more productivity you can install Chrome's [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
@@ -83,7 +83,6 @@ Here are the npm packages that redux-minimal installs:
 |Asynchronous|[`redux-saga`](https://github.com/yelouafi/redux-saga)|Asynchronous API calls made easy with Saga|
 |Unit tests|[`mocha`](https://github.com/mochajs/mocha)|Simple javascript test framework|
 ||[`enzyme`](https://github.com/airbnb/enzyme)|JavaScript Testing utilities for React components|
-||[`react-addons-test-utils`](https://facebook.github.io/react/docs/test-utils.html)|Required by enzyme. Makes it easy to test React components|
 ||[`ignore-styles`](https://www.npmjs.com/package/ignore-styles)|Ignore imported style files when running in Node|
 |Sass|[`node-sass`](https://github.com/sass/node-sass)|Mature, stable, and powerful CSS extension language|
 |Webpack|[`webpack`](https://github.com/webpack/webpack)|A bundler for javascript, css and others|
@@ -123,7 +122,7 @@ Redux-Minimal also contains a small sample app that let's you manage some users 
 
 The sample app provides you with basically most of the things you will need when building a new real-world app.
 
-The demo for the app can be found here: 
+The demo for the app can be found here:
 [http://redux-minimal-app.catalin-luntraru.com](http://redux-minimal-app.catalin-luntraru.com)
 
 

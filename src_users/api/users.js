@@ -6,7 +6,7 @@ export default class ApiUsers {
       setTimeout(() => {
         // build some dummy users list
         const users = [];
-        for (let x = 1; x <= 28; x++) {
+        for (let x = 1; x <= 28; x += 1) {
           users.push({
             id: x,
             username: `Johny ${x}`,
