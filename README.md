@@ -1,5 +1,16 @@
 # React Redux minimal starter kit (boilerplate)
 
+## FORK INFO:
+
+This fork by mturley is intended to introduce eslint and use it to enforce the Airbnb Javascript Style Guide,
+thus turning this project into a great minimal starting point for someone who might want to build a Redux application
+and follow the Airbnb guide for their application.  This fork maintains a few branches:
+
+* **mturley/redux-minimal `master`**: A lot of code that violated the guide has been cleaned up, but otherwise this branch is mostly the same as the upstream catalin-luntraru/redux-minimal.
+* **mturley/redux-minimal `barebones`**: This is kept up-to-date with master, but stripped down into a 'Hello World only' implementation. The src_users example application is removed, as well as a few other changes to strip it down:
+  * redux-saga is replaced by redux-thunk
+  * bootstrap CSS is removed
+  * TODO need to actually create this branch
 
 <br><a href="http://redux-minimal.js.org/"><img src="http://redux-minimal.js.org/logo/redux-minimal-logo-blue.svg"></a><br><br>
 
