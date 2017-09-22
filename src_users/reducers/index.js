@@ -4,7 +4,7 @@ import { reducer as formReducer } from 'redux-form';
 import users from './users';
 
 // main reducers
-export const reducers = combineReducers({
+const reducers = combineReducers({
   routing: routerReducer,
   form: formReducer.plugin({
     user_edit: (state, action) => {
@@ -19,3 +19,5 @@ export const reducers = combineReducers({
   }),
   users,
 });
+
+export default reducers;
