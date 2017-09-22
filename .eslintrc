@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "parser": "babel-eslint",
+  "globals": {
+    "fetch": false
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "import/no-named-as-default": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/test/**/*", "*.config.js"]}]
+  }
+}
